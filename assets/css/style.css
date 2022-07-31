@@ -1,0 +1,14 @@
+/* Default styling for body elements */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Landing page image */
+#landing-page-image {
+    /* Image source: https://commons.wikimedia.org/wiki/File:York_Minster_from_M%26S.JPG */
+    background: url('../images/hero-image.JPG') center 40% no-repeat fixed;
+    height: 75vh;
+    width: 100%;
+}
