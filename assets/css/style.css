@@ -1,11 +1,46 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 /* Default styling for body elements */
 body {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: 'Libre Baskerville', serif;
 }
 
-/* Landing page image */
+header {
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: lightgray;
+    border-bottom: 3px solid black;
+    
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    float: left;
+    font-size: 370%;
+    padding-left: 60px;
+    line-height: 0;
+    text-decoration: none;
+}
+
+nav li {
+    float: right;
+    list-style-type: none;
+    padding: 10px 60px 0 0;
+    font-size: 170%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 #landing-page-image {
     /* Image source: https://commons.wikimedia.org/wiki/File:York_Minster_from_M%26S.JPG */
     background: url('../images/hero-image.JPG') center 40% no-repeat fixed;
