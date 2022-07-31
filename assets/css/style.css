@@ -43,7 +43,44 @@ nav a:hover {
 
 #landing-page-image {
     /* Image source: https://commons.wikimedia.org/wiki/File:York_Minster_from_M%26S.JPG */
-    background: url('../images/hero-image.JPG') center 40% no-repeat fixed;
+    background: url('../images/landing-page-image.JPG') center 40% no-repeat fixed;
     height: 75vh;
     width: 100%;
+}
+
+
+#book-button-div {
+    height: 0;
+    text-align: center;
+}
+
+#book-button-div a {
+    position: relative;
+    top: -40px;
+}
+
+/* Book a tour button */
+#book-button-div button {
+    background-color: #82a0aa;
+    height: 80px;
+    font-size: 2rem;
+    line-height: 0;
+    border-radius: 15px;
+    padding: 0 10px;
+    border: 3px solid black;
+    box-shadow: inset 1px 1px 5px 0 white,
+                inset -2px -2px 3px black;
+}
+
+#book-button-div button:hover {
+    color: white;
+}
+
+#book-button-div button:active {
+    box-shadow: inset -1px -1px 5px 0 white,
+                inset 2px 2px 3px black;
+}
+
+#about-us {
+    border-top: 3px solid black;
 }
