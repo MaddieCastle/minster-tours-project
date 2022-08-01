@@ -147,3 +147,21 @@ form div {
 form button {
     font-size: 150%;
 }
+
+/* Footer */
+footer {
+    height: 100px;
+    background-color: lightgray;
+    border-top: 3px solid black;
+    text-align: center;
+    font-size: 180%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
