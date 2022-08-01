@@ -165,3 +165,39 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Media query for screens under 1200px wide */
+@media screen and (max-width: 1199px) {
+    header {
+        height: 185px;
+        padding: 10px 0 0 0;
+        text-align: center;
+   }
+
+   h1 {
+        float: none;
+        padding: 0;
+   }
+
+   nav ul {
+        padding: 0;
+   }
+
+   nav li{ 
+        float: none;
+        padding: 3px 0;
+        line-height: 1;
+   }
+
+   #about-us {
+        text-align: center;
+   }
+
+    #nave-inside-image {
+        float: none;
+    }
+
+   #about-us-text {
+        clear: both;
+   }
+}
