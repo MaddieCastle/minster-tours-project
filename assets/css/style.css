@@ -80,6 +80,7 @@ nav a:hover {
                 inset 2px 2px 3px black;
 }
 
+/* About us section */
 #about-us {
     background-color: lightgray;
     border-top: 3px solid black;
@@ -105,4 +106,44 @@ nav a:hover {
     list-style-type: none;
     margin: 70px 0;
     font-size: 160%;
+}
+
+/* Booking section */
+#booking {
+    background-color: #82a0aa;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#booking h2 {
+    margin: 0;
+}
+
+/* Booking form */
+#form-div {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+
+#booking label {
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+form div {
+    text-align: center;
+}
+
+.radio {
+    width: 70px;
+}
+
+form button {
+    font-size: 150%;
 }

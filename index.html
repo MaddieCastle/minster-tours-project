@@ -34,6 +34,7 @@
         </div>
         <div id="about-us">
             <div id="nave-inside-image">
+                <!-- Image source: https://commons.wikimedia.org/wiki/File:York_Minster_nave.jpg -->
                 <img src="assets/images/nave-inside.jpg" 
                 alt="Image showing the inside of York Minster nave">
             </div>
@@ -49,9 +50,34 @@
     </section>
     <!-- Book a tour containing signup form -->
     <section>
-        
         <div id="booking">
             <h2>Book a tour!</h2>
+            <div id="form-div">
+                <form name="booking-form" method="post" action="https://formdump.codeinstitute.net">
+                    <p><label for="firstname">First name:</label>
+                    <br>
+                    <input maxlength="30" required type="text" id="firstname" name="firstname">
+                    </p>
+                    <p><label for="surname">Surname:</label>
+                    <br>
+                    <input maxlength="30" required type="text" id="surname" name="surname">
+                    </p>
+                    <p><label for="email">Email address:</label>
+                    <br>
+                    <input maxlength="30" required type="email" id="email" name="email">
+                    </p>
+                    <div><label for="morning">Morning</label>
+                    <input class="radio" required type="radio" id="morning" name="timeslot" value="morning">
+                    <br>
+                    <label for="afternoon">Afternoon</label>
+                    <input class="radio" required type="radio" id="afternoon" name="timeslot" value="afternoon">
+                    </div>
+                    <br>
+                    <div>
+                        <button formaction="https://formdump.codeinstitute.net" formtarget="_blank" type="submit">Book your tour</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <!-- Footer -->
