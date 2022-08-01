@@ -53,6 +53,9 @@ to the anchor elements fixed the problem.
 - When I first ran my code through the W3C HTML validator, I discovered I had a button element nested inside an anchor element.
 - Simply removing the button element and styling the anchor tag like a button fixed the problem.
 
+## Unsolved Bugs
+- There are no unsolved bugs.
+
 ## Validator Testing
 - HTML
     - The official W3C validator returned no errors when passing my code through
@@ -60,4 +63,19 @@ to the anchor elements fixed the problem.
 - CSS
     - The official Jigsaw validator returned no errors when passing my code through
 
-Accessability
+- Accessability
+    - I have confirmed through lighthouse that the site is accesable and easy to read
+![Lighthouse test screenshot](/assets/images/lighthousetest.jpg)
+
+## Deployment
+- Github pages was used to deploy the site live, via the settings tab of the GitHub repository.
+- Then choosing the root option under the Branch subheading.
+-This resulted in a live site [here.](https://maddiecastle.github.io/minster-tours-project/)
+
+## Credits
+### Contents
+- All contents were created by the developer.
+
+### Media
+- The landing page background was from Wikimedia Commons [here.](https://commons.wikimedia.org/wiki/File:York_Minster_from_M%26S.JPG)
+- The About us section image was from Wikimedia Commons [here.](https://commons.wikimedia.org/wiki/File:York_Minster_nave.jpg)
