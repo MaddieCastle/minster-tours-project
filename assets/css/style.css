@@ -48,7 +48,6 @@ nav a:hover {
     width: 100%;
 }
 
-
 #book-button-div {
     height: 0;
     text-align: center;
@@ -82,5 +81,28 @@ nav a:hover {
 }
 
 #about-us {
+    background-color: lightgray;
     border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 40px 60px;
+    overflow: hidden;
+}
+
+#nave-inside-image {
+    float: left;
+}
+
+#about-us-text {
+    text-align: center;
+    margin: 100px 0;
+}
+
+#about-us-text h2 {
+    font-size: 220%;
+}
+
+#about-us-text li {
+    list-style-type: none;
+    margin: 70px 0;
+    font-size: 160%;
 }
