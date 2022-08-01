@@ -53,29 +53,27 @@ nav a:hover {
     text-align: center;
 }
 
+/* Book a tour button */
 #book-button-div a {
     position: relative;
-    top: -40px;
-}
-
-/* Book a tour button */
-#book-button-div button {
+    top: -10px;
     background-color: #82a0aa;
-    height: 80px;
     font-size: 2rem;
     line-height: 0;
     border-radius: 15px;
-    padding: 0 10px;
+    padding: 20px;
     border: 3px solid black;
     box-shadow: inset 1px 1px 5px 0 white,
                 inset -2px -2px 3px black;
+    text-decoration: none;
+    color: black;
 }
 
-#book-button-div button:hover {
+#book-button-div a:hover {
     color: white;
 }
 
-#book-button-div button:active {
+#book-button-div a:active {
     box-shadow: inset -1px -1px 5px 0 white,
                 inset 2px 2px 3px black;
 }

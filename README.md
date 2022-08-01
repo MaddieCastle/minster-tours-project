@@ -33,3 +33,31 @@ Minster Tours is a site for a company offering tours around York Minster aimed a
 ![screenshot of social media links](/assets/images/sociallinks.jpg)
 
 ## Testing
+
+- I tested different browsers (Firefox, Chrome, and Microsoft Edge) to confirm this page works with all of them.
+
+- I tested that all of the links, both internal and external, work correctly and open a seperate tab when needed.
+
+- I confirmed that the form works, posts correctly, and has character limits where they are needed.
+
+- I confirmed that the readability is not impacted by changing screen sizes, and that the project is responsive accross different devices.
+
+## Bugs
+
+### Solved Bugs
+
+- When first added the external links in the footer where not opening in new tabs, adding
+> target="_blank"
+to the anchor elements fixed the problem.
+
+- When I first ran my code through the W3C HTML validator, I discovered I had a button element nested inside an anchor element.
+- Simply removing the button element and styling the anchor tag like a button fixed the problem.
+
+## Validator Testing
+- HTML
+    - The official W3C validator returned no errors when passing my code through
+
+- CSS
+    - The official Jigsaw validator returned no errors when passing my code through
+
+Accessability
